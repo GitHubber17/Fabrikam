@@ -6,6 +6,7 @@
         Closed,
         Pending,
         Flagged,
-        Assigned
+        Assigned,
+        Obsolete
     }
 }
