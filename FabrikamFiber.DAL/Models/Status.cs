@@ -5,6 +5,7 @@
         Open,
         Closed,
         Pending,
+        Flagged,
         Assigned
     }
 }
