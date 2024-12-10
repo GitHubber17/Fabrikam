@@ -7,6 +7,7 @@
         Pending,
         Flagged,
         Assigned,
-        Obsolete
+        Obsolete,
+        None
     }
 }
