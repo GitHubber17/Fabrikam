@@ -1,8 +1,7 @@
 ﻿using Microsoft.VisualStudio.TestTools.UnitTesting;
 namespace FabrikamFiber.Web.Tests
 {
-    using System;
-    using System.Linq;
+    using System, System.Linq;
     using System.Linq.Expressions;
     using System.Web.Mvc;
     using FabrikamFiber.DAL.Data;
