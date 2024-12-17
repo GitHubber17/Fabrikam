@@ -36,7 +36,7 @@ namespace FabrikamFiber.Web.Controllers
             if (ModelState.IsValid)
             {
                 this.customerRepository.InsertOrUpdate(customer);
-                this.customerRepository.Save();
+                this.customerRepository.Save(_);
                 return RedirectToAction("Index");
             }
             
