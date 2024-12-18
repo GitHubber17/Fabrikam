@@ -1,43 +1,50 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<DirectedGraph DataVirtualized="True" Layout="Sugiyama" ZoomLevel="-1" xmlns="http://schemas.microsoft.com/vs/2009/dgml">
+<DirectedGraph DataVirtualized="True" GraphDirection="LeftToRight" Layout="Sugiyama" ZoomLevel="-1" xmlns="http://schemas.microsoft.com/vs/2009/dgml">
   <Nodes>
-    <Node Id="@11" Category="CodeSchema_Method" Bounds="128.538333333333,411.92,70.33,25.96" CodeSchemaProperty_IsPublic="True" CommonLabel="Create" DelayedCrossGroupLinksState="Fetched" Icon="CodeSchema_Method" Label="Create" />
-    <Node Id="@12" Category="CodeSchema_Method" Bounds="60,175.96,207.406666666667,25.96" CodeSchemaProperty_IsPublic="True" CommonLabel="CreateInsertsCustomerAndSaves" DelayedCrossGroupLinksState="Fetched" Icon="CodeSchema_Method" Label="CreateInsertsCustomerAndSaves">
+    <Node Id="@10" Category="CodeSchema_Class" Bounds="40,80,247.406666666667,141.92" CodeSchemaProperty_IsPublic="True" CommonLabel="CustomersControllerTest" DelayedChildNodesState="Incomplete" DelayedCrossGroupLinksState="Fetched" Group="Expanded" Icon="CodeSchema_Class" Label="CustomersControllerTest">
       <Category Ref="CodeMap_TestAsset" />
     </Node>
-    <Node Id="@13" Category="CodeSchema_Method" Bounds="60,120,143.106666666667,25.96" CodeSchemaProperty_IsPublic="True" CommonLabel="CreateNullCustomer" DelayedCrossGroupLinksState="Fetched" Icon="CodeSchema_Method" Label="CreateNullCustomer">
+    <Node Id="@11" Category="CodeSchema_Class" Bounds="83.92,371.92,159.566666666667,85.96" CodeSchemaProperty_IsPublic="True" CommonLabel="GuardHelper" DelayedChildNodesState="Incomplete" DelayedCrossGroupLinksState="Fetched" Group="Expanded" Icon="CodeSchema_Class" Label="GuardHelper" />
+    <Node Id="@13" Category="CodeSchema_Method" Bounds="128.538333333333,587.88,70.33,25.96" CodeSchemaProperty_IsPublic="True" CommonLabel="Create" DelayedCrossGroupLinksState="Fetched" Icon="CodeSchema_Method" Label="Create" />
+    <Node Id="@14" Category="CodeSchema_Method" Bounds="60,175.96,207.406666666667,25.96" CodeSchemaProperty_IsPublic="True" CommonLabel="CreateInsertsCustomerAndSaves" DelayedCrossGroupLinksState="Fetched" Icon="CodeSchema_Method" Label="CreateInsertsCustomerAndSaves">
       <Category Ref="CodeMap_TestAsset" />
     </Node>
-    <Node Id="@2" Category="CodeSchema_Assembly" AssemblyTimestamp="12/17/2024 20:00:18" Bounds="34.4466666666667,291.92,258.513333333333,205.96" CodeSchemaProperty_StrongName="FabrikamFiber.Web, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" CommonLabel="FabrikamFiber.Web" DelayedChildNodesState="Incomplete" DelayedCrossGroupLinksState="Fetched" FilePath="$(456d6bf0-21b0-4995-9d77-76fa13ad95da.OutputPath)" Group="Expanded" Label="FabrikamFiber.Web.dll">
+    <Node Id="@15" Category="CodeSchema_Method" Bounds="60,120,143.106666666667,25.96" CodeSchemaProperty_IsPublic="True" CommonLabel="CreateNullCustomer" DelayedCrossGroupLinksState="Fetched" Icon="CodeSchema_Method" Label="CreateNullCustomer">
+      <Category Ref="CodeMap_TestAsset" />
+    </Node>
+    <Node Id="@16" Category="CodeSchema_Method" Bounds="103.92,411.92,119.566666666667,25.96" CodeSchemaProperty_IsPublic="True" CodeSchemaProperty_IsStatic="True" CommonLabel="GuardCustomer" DelayedCrossGroupLinksState="Fetched" Icon="CodeSchema_Method" Label="GuardCustomer" />
+    <Node Id="@2" Category="CodeSchema_Assembly" AssemblyTimestamp="12/17/2024 20:19:55" Bounds="34.4466666666667,291.92,258.513333333333,381.92" CodeSchemaProperty_StrongName="FabrikamFiber.Web, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" CommonLabel="FabrikamFiber.Web" DelayedChildNodesState="Incomplete" DelayedCrossGroupLinksState="Fetched" FilePath="$(456d6bf0-21b0-4995-9d77-76fa13ad95da.OutputPath)" Group="Expanded" Label="FabrikamFiber.Web.dll">
       <Category Ref="CodeMap_WebProject" />
     </Node>
-    <Node Id="@4" Category="CodeSchema_Assembly" AssemblyTimestamp="12/17/2024 20:00:19" Bounds="0,0,327.406666666667,261.92" CodeSchemaProperty_StrongName="FabrikamFiber.Web.Tests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" CommonLabel="FabrikamFiber.Web.Tests" DelayedChildNodesState="Incomplete" DelayedCrossGroupLinksState="Fetched" FilePath="$(2fe8e250-4218-4b31-ab23-d9b91abd842b.OutputPath)" Group="Expanded" Label="FabrikamFiber.Web.Tests.dll">
-      <Category Ref="CodeMap_TestAsset" />
-      <Category Ref="CodeMap_TestProject" />
+    <Node Id="@4" Category="CodeMap_TestAsset" AssemblyTimestamp="12/17/2024 20:00:19" Bounds="0,0,327.406666666667,261.92" CodeSchemaProperty_StrongName="FabrikamFiber.Web.Tests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" CommonLabel="FabrikamFiber.Web.Tests" DelayedChildNodesState="Incomplete" DelayedCrossGroupLinksState="Fetched" ErrorLevel="Error" FilePath="$(2fe8e250-4218-4b31-ab23-d9b91abd842b.OutputPath)" Group="Expanded" Label="FabrikamFiber.Web.Tests.dll">
+      <Category Ref="CodeSchema_Assembly" />
+      <Category Ref="FileSystem.Category.FileOfType.dll" />
     </Node>
-    <Node Id="@5" Category="CodeSchema_Namespace" Bounds="54.4466666666667,331.92,218.513333333333,145.96" CodeSchemaProperty_IsPublic="True" CodeSchemaProperty_IsStatic="True" CommonLabel="FabrikamFiber.Web.Controllers" DelayedChildNodesState="Incomplete" DelayedCrossGroupLinksState="Fetched" Group="Expanded" Label="FabrikamFiber.Web.Controllers" />
-    <Node Id="@7" Category="CodeSchema_Namespace" Bounds="20,40,287.406666666667,201.92" CodeSchemaProperty_IsPublic="True" CodeSchemaProperty_IsStatic="True" CommonLabel="FabrikamFiber.Web.Tests" DelayedChildNodesState="Incomplete" DelayedCrossGroupLinksState="Fetched" Group="Expanded" Label="FabrikamFiber.Web.Tests">
-      <Category Ref="CodeMap_TestAsset" />
-    </Node>
-    <Node Id="@8" Category="CodeSchema_Class" Bounds="78.6666666666667,371.92,170.073333333333,85.96" CodeSchemaProperty_IsPublic="True" CommonLabel="CustomersController" DelayedChildNodesState="Incomplete" DelayedCrossGroupLinksState="Fetched" Group="Expanded" Icon="CodeSchema_Class" Label="CustomersController" />
-    <Node Id="@9" Category="CodeSchema_Class" Bounds="40,80,247.406666666667,141.92" CodeSchemaProperty_IsPublic="True" CommonLabel="CustomersControllerTest" DelayedChildNodesState="Incomplete" DelayedCrossGroupLinksState="Fetched" Group="Expanded" Icon="CodeSchema_Class" Label="CustomersControllerTest">
+    <Node Id="@5" Category="CodeSchema_Namespace" Bounds="54.4466666666667,507.88,218.513333333333,145.96" CodeSchemaProperty_IsPublic="True" CodeSchemaProperty_IsStatic="True" CommonLabel="FabrikamFiber.Web.Controllers" DelayedChildNodesState="Incomplete" DelayedCrossGroupLinksState="Fetched" Group="Expanded" Label="FabrikamFiber.Web.Controllers" />
+    <Node Id="@6" Category="CodeSchema_Namespace" Bounds="63.235,331.92,200.936666666667,145.96" CodeSchemaProperty_IsPublic="True" CodeSchemaProperty_IsStatic="True" CommonLabel="FabrikamFiber.Web.Helpers" DelayedChildNodesState="Incomplete" DelayedCrossGroupLinksState="Fetched" Group="Expanded" Label="FabrikamFiber.Web.Helpers" />
+    <Node Id="@8" Category="CodeSchema_Namespace" Bounds="20,40,287.406666666667,201.92" CodeSchemaProperty_IsPublic="True" CodeSchemaProperty_IsStatic="True" CommonLabel="FabrikamFiber.Web.Tests" DelayedChildNodesState="Incomplete" DelayedCrossGroupLinksState="Fetched" Group="Expanded" Label="FabrikamFiber.Web.Tests">
       <Category Ref="CodeMap_TestAsset" />
     </Node>
+    <Node Id="@9" Category="CodeSchema_Class" Bounds="78.6666666666667,547.88,170.073333333333,85.96" CodeSchemaProperty_IsPublic="True" CommonLabel="CustomersController" DelayedChildNodesState="Incomplete" DelayedCrossGroupLinksState="Fetched" Group="Expanded" Icon="CodeSchema_Class" Label="CustomersController" />
   </Nodes>
   <Links>
-    <Link Source="@12" Target="@11" Category="CodeSchema_Calls" Bounds="163.703331704341,201.920010070801,6.49901812721509E-06,200.999999084473" Weight="1" />
-    <Link Source="@13" Target="@11" Category="CodeSchema_Calls" Bounds="132.982861972411,145.959995727539,28.3057052580712,257.014103505668" Weight="1" />
+    <Link Source="@10" Target="@14" Category="Contains" FetchingParent="@10" />
+    <Link Source="@10" Target="@15" Category="Contains" FetchingParent="@10" />
+    <Link Source="@11" Target="@16" Category="Contains" FetchingParent="@11" />
+    <Link Source="@14" Target="@13" Category="CodeSchema_Calls" Bounds="163.703331400756,201.920010070801,6.98188136993849E-06,376.96000579834" Weight="1" />
+    <Link Source="@15" Target="@13" Category="CodeSchema_Calls" Bounds="132.445247208333,145.959995727539,29.7492008623694,432.941192570615" Weight="1" />
+    <Link Source="@16" Target="@13" Category="CodeSchema_Calls" Bounds="163.703330993652,437.880009155273,0,141.000006713867" Weight="1" />
+    <Link Source="@16" Target="@9" Category="CodeSchema_ReturnTypeLink" Weight="1" />
     <Link Source="@2" Target="@5" Category="Contains" FetchingParent="@2" />
+    <Link Source="@2" Target="@6" Category="Contains" FetchingParent="@2" />
     <Link Source="@4" Target="@2" Category="CodeMap_ProjectReference" />
-    <Link Source="@4" Target="@7" Category="Contains" FetchingParent="@4" />
-    <Link Source="@5" Target="@8" Category="Contains" FetchingParent="@5" />
-    <Link Source="@7" Target="@9" Category="Contains" FetchingParent="@7" />
-    <Link Source="@8" Target="@11" Category="Contains" FetchingParent="@8" />
-    <Link Source="@9" Target="@12" Category="Contains" FetchingParent="@9" />
+    <Link Source="@4" Target="@8" Category="Contains" FetchingParent="@4" />
+    <Link Source="@5" Target="@9" Category="Contains" FetchingParent="@5" />
+    <Link Source="@6" Target="@11" Category="Contains" FetchingParent="@6" />
+    <Link Source="@8" Target="@10" Category="Contains" FetchingParent="@8" />
     <Link Source="@9" Target="@13" Category="Contains" FetchingParent="@9" />
   </Links>
   <Categories>
-    <Category Id="CodeMap_ProjectReference" Label="Project Reference" CanBeDataDriven="True" CanLinkedNodesBeDataDriven="True" IncomingActionLabel="Referenced By" OutgoingActionLabel="References" />
     <Category Id="CodeMap_TestAsset" Label="Test Asset" CanBeDataDriven="True" IsProviderRoot="False" NavigationActionLabel="Test Assets" />
     <Category Id="CodeMap_TestProject" Label="Test Project" CanBeDataDriven="True" IsProviderRoot="False" NavigationActionLabel="Test Projects" />
     <Category Id="CodeMap_WebProject" Label="Web Project" CanBeDataDriven="True" IsProviderRoot="False" NavigationActionLabel="Web Projects" />
@@ -67,6 +74,7 @@
     <Property Id="Expression" DataType="System.String" />
     <Property Id="FetchingParent" DataType="Microsoft.VisualStudio.GraphModel.GraphNodeId" />
     <Property Id="FilePath" Label="File Path" Description="File Path" DataType="System.String" />
+    <Property Id="GraphDirection" DataType="Microsoft.VisualStudio.Diagrams.Layout.LayoutOrientation" />
     <Property Id="Group" Label="Group" Description="Display the node as a group" DataType="Microsoft.VisualStudio.GraphModel.GraphGroupStyle" />
     <Property Id="GroupLabel" DataType="System.String" />
     <Property Id="Icon" Label="Icon" DataType="System.String" />
@@ -79,6 +87,7 @@
     <Property Id="NavigationActionLabel" Label="NavigationActionLabel" Description="NavigationActionLabel" DataType="System.String" />
     <Property Id="OutgoingActionLabel" Label="OutgoingActionLabel" Description="OutgoingActionLabel" DataType="System.String" />
     <Property Id="TargetType" DataType="System.Type" />
+    <Property Id="UseManualLocation" DataType="System.Boolean" />
     <Property Id="Value" DataType="System.String" />
     <Property Id="ValueLabel" DataType="System.String" />
     <Property Id="Visibility" Label="Visibility" Description="Defines whether a node in the graph is visible or not" DataType="System.Windows.Visibility" />
@@ -99,14 +108,17 @@
     <Alias n="3" Uri="Assembly=$(2fe8e250-4218-4b31-ab23-d9b91abd842b.OutputPathUri)" />
     <Alias n="4" Id="(@3)" />
     <Alias n="5" Id="(@1 Namespace=FabrikamFiber.Web.Controllers)" />
-    <Alias n="6" Id="Namespace=FabrikamFiber.Web.Tests" />
-    <Alias n="7" Id="(@3 @6)" />
-    <Alias n="8" Id="(@1 Namespace=FabrikamFiber.Web.Controllers Type=CustomersController)" />
-    <Alias n="9" Id="(@3 @6 Type=CustomersControllerTest)" />
-    <Alias n="10" Uri="Assembly=$(64058ba2-30b8-4a35-8d4c-cb4f6d6d7442.OutputPathUri)" />
-    <Alias n="11" Id="(@1 Namespace=FabrikamFiber.Web.Controllers Type=CustomersController Member=(Name=Create OverloadingParameters=[(@10 Namespace=FabrikamFiber.DAL.Models Type=Customer)]))" />
-    <Alias n="12" Id="(@3 @6 Type=CustomersControllerTest Member=CreateInsertsCustomerAndSaves)" />
-    <Alias n="13" Id="(@3 @6 Type=CustomersControllerTest Member=CreateNullCustomer)" />
+    <Alias n="6" Id="(@1 Namespace=FabrikamFiber.Web.Helpers)" />
+    <Alias n="7" Id="Namespace=FabrikamFiber.Web.Tests" />
+    <Alias n="8" Id="(@3 @7)" />
+    <Alias n="9" Id="(@1 Namespace=FabrikamFiber.Web.Controllers Type=CustomersController)" />
+    <Alias n="10" Id="(@3 @7 Type=CustomersControllerTest)" />
+    <Alias n="11" Id="(@1 Namespace=FabrikamFiber.Web.Helpers Type=GuardHelper)" />
+    <Alias n="12" Uri="Assembly=$(64058ba2-30b8-4a35-8d4c-cb4f6d6d7442.OutputPathUri)" />
+    <Alias n="13" Id="(@1 Namespace=FabrikamFiber.Web.Controllers Type=CustomersController Member=(Name=Create OverloadingParameters=[(@12 Namespace=FabrikamFiber.DAL.Models Type=Customer)]))" />
+    <Alias n="14" Id="(@3 @7 Type=CustomersControllerTest Member=CreateInsertsCustomerAndSaves)" />
+    <Alias n="15" Id="(@3 @7 Type=CustomersControllerTest Member=CreateNullCustomer)" />
+    <Alias n="16" Id="(@1 Namespace=FabrikamFiber.Web.Helpers Type=GuardHelper Member=GuardCustomer)" />
   </IdentifierAliases>
   <Styles>
     <Style TargetType="Node" GroupLabel="Results" ValueLabel="True">
@@ -326,7 +338,6 @@
     </Style>
   </Styles>
   <Paths>
-    <Path Id="2fe8e250-4218-4b31-ab23-d9b91abd842b.OutputPath" Value="C:\GitHub\Fabrikam\FabrikamFiber.Web.Tests\bin\Debug\FabrikamFiber.Web.Tests.dll" />
     <Path Id="2fe8e250-4218-4b31-ab23-d9b91abd842b.OutputPathUri" Value="file:///C:/GitHub/Fabrikam/FabrikamFiber.Web.Tests/bin/Debug/FabrikamFiber.Web.Tests.dll" />
     <Path Id="456d6bf0-21b0-4995-9d77-76fa13ad95da.OutputPath" Value="C:\GitHub\Fabrikam\FabrikamFiber.Web\bin\FabrikamFiber.Web.dll" />
     <Path Id="456d6bf0-21b0-4995-9d77-76fa13ad95da.OutputPathUri" Value="file:///C:/GitHub/Fabrikam/FabrikamFiber.Web/bin/FabrikamFiber.Web.dll" />
