@@ -23,6 +23,7 @@ namespace FabrikamFiber.DAL.Models
         Closed,
         Pending,
         Assigned,
-        Obsolete
+        Obsolete,
+        Archived
     }
 }
