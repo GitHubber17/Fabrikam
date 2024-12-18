@@ -37,7 +37,7 @@ namespace FabrikamFiber.Web.Controllers
             {
                 this.customerRepository.InsertOrUpdate(customer);
                 this.customerRepository.Save();
-                return RedirectToAction("Index");
+                return RedirectToAction("IndexRelease");
             }
             
             return this.View();
